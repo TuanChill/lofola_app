@@ -5,12 +5,12 @@ on:
   push:
     branches:
       - main
-      - build-release
+      - build_release
       - dev
   pull_request:
     branches:
       - main
-      - build-release
+      - build_release
       - dev
 
 jobs:
